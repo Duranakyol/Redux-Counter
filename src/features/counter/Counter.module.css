@@ -1,3 +1,14 @@
+.myCounter {
+  height: 100vh;
+  background-image: url("../../assets/backgorund.jpg");
+  background-size: 100%;
+  background-repeat: no;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
 .row {
   display: flex;
   align-items: center;
@@ -17,7 +28,8 @@
   padding-left: 16px;
   padding-right: 16px;
   margin-top: 2px;
-  font-family: 'Courier New', Courier, monospace;
+  color: white;
+  font-family: "Courier New", Courier, monospace;
 }
 
 .button {
@@ -28,11 +40,11 @@
   padding-right: 12px;
   outline: none;
   border: 2px solid transparent;
-  color: rgb(112, 76, 182);
+  color: white;
   padding-bottom: 4px;
   cursor: pointer;
-  background-color: rgba(112, 76, 182, 0.1);
-  border-radius: 2px;
+  background-color: chocolate;
+  border-radius: 7px;
   transition: all 0.15s;
 }
 
@@ -59,7 +71,7 @@
 }
 
 .asyncButton:after {
-  content: '';
+  content: "";
   background-color: rgba(112, 76, 182, 0.15);
   display: block;
   position: absolute;
